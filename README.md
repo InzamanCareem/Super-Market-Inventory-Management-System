@@ -47,5 +47,3 @@ This project is built with **Object-Oriented Programming (OOP)** principles, foc
 
 ```bash
 git clone https://github.com/InzamanCareem/Super-Market-Inventory-Management-System.git
-cd supermarket-inventory-management
-
