@@ -1,0 +1,3 @@
+Office Desks, IKEA, 25500.00, 10
+Desk Lamps, Philips, 2950.00, 20
+Speaker, JBL, 39999.00, 8

@@ -1,0 +1,38 @@
+.side-bar{
+    -fx-background-color: white;
+}
+
+.transparent{
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.item{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box, rgba(0, 0, 0, 0.1), 10.0, 0.0, 0.0, 10.0);
+}
+
+.side-bar-button{
+    -fx-background-color: #FFFFFF;
+}
+
+.side-bar-button:hover{
+    -fx-background-color: #03fc28;
+}
+
+.all-buttons{
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+}
+
+.all-buttons: hover{
+    -fx-cursor: hand;
+}
+
+.grid-color{
+    -fx-background-color: #FFFFFF;
+}

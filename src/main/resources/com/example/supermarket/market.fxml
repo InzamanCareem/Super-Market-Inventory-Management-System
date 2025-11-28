@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supermarket.MarketController">
+   <children>
+      <BorderPane fx:id="rootPane" layoutX="199.0" layoutY="115.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox alignment="CENTER" prefHeight="700.0" prefWidth="290.0" styleClass="side-bar" stylesheets="@market.css" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="110.0" prefWidth="270.0">
+                     <children>
+                        <Label prefHeight="38.0" prefWidth="90.0" text="Super">
+                           <font>
+                              <Font name="Cambria Bold" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="38.0" prefWidth="96.0" text="Market">
+                           <font>
+                              <Font name="Cambria" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Pane prefHeight="52.0" prefWidth="271.0" VBox.vgrow="ALWAYS" />
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#changeToInventoryScene" prefHeight="47.0" prefWidth="308.0" styleClass="side-bar-button" stylesheets="@market.css" text="My Inventory">
+                     <font>
+                        <Font name="Cambria" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Pane prefHeight="40.0" prefWidth="271.0" VBox.vgrow="ALWAYS" />
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#changeToItemEditorScene" prefHeight="47.0" prefWidth="308.0" styleClass="side-bar-button" stylesheets="@market.css" text="Item Editor">
+                     <font>
+                        <Font name="Cambria" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#changeToItemDetailsScene" prefHeight="47.0" prefWidth="308.0" styleClass="side-bar-button" stylesheets="@market.css" text="Item Details">
+                     <font>
+                        <Font name="Cambria" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#changeToDealerManagementScene" prefHeight="47.0" prefWidth="308.0" styleClass="side-bar-button" stylesheets="@market.css" text="Dealer Management">
+                     <font>
+                        <Font name="Cambria" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Pane prefHeight="40.0" prefWidth="271.0" VBox.vgrow="ALWAYS" />
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#saveDetails" prefHeight="47.0" prefWidth="308.0" styleClass="side-bar-button" stylesheets="@market.css" text="Save">
+                     <font>
+                        <Font name="Cambria" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Pane prefHeight="20.0" prefWidth="271.0" VBox.vgrow="ALWAYS" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

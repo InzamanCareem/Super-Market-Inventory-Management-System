@@ -1,0 +1,3 @@
+Computer Mouse, Logitech, 4100.00, 12
+Laser Printer, Canon, 159000.00, 3
+Dialog Router, Dialog, 5990.00, 5

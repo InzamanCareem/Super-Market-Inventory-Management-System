@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="40.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supermarket.ItemController2">
+   <children>
+      <VBox layoutX="-16.0" layoutY="-80.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <GridPane alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="750.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.20001220703125" minWidth="10.0" prefWidth="52.40001220703125" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="163.20000839233398" minWidth="10.0" prefWidth="57.19998779296874" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="259.8000122070313" minWidth="10.0" prefWidth="96.799951171875" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="259.59999084472656" minWidth="10.0" prefWidth="96.800048828125" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="269.5999755859375" minWidth="10.0" prefWidth="104.59998779296876" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="269.5999755859375" minWidth="10.0" prefWidth="108.60001220703128" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="249.800048828125" minWidth="10.0" prefWidth="117.59995117187498" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.00002441406252" minWidth="10.0" prefWidth="154.00002441406252" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label prefHeight="40.0" prefWidth="133.0" text="Code" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="72.0" prefWidth="160.0" text="Name" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="70.0" prefWidth="190.0" text="Brand" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="65.0" prefWidth="247.0" text="Price" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="81.0" prefWidth="211.0" text="Category" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="76.0" prefWidth="202.0" text="Purchased Date" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="59.0" prefWidth="222.0" text="Quantity" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+                  <Label prefHeight="70.0" prefWidth="126.0" text="Image">
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font></Label>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
